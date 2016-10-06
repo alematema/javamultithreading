@@ -1,0 +1,12 @@
+//        MessageDecoderTester tester = new MessageDecoderTester();
+//        MessageDecoder decoder = new MessageDecoder();
+//        
+//        boolean passed = tester.testUpperToLower("1,0,2", decoder, "Ab");
+//        passed = passed & tester.testUpperToPunctuation("1,0,0,1,1,1,1,", decoder,"A!!!!");
+//        passed = passed & tester.testLowerToPunctuation("1,0,1,2,0,1,1,1,1,", decoder, "Aab!!!!");
+//        passed = passed & tester.testLowerToUpper("1,0,0,2,3,", decoder, "aBC");
+//	passed = passed & tester.testLowerToUpper("1,0,0,2,0,3,0,0,4,", decoder,"aBcD");
+//        passed = passed & tester.testPunctuationToUpper( "1,1,1,0,1,", decoder,"!!!A");
+//	passed = passed & tester.testPunctuationToUpper( "1,5,5,0,1,", decoder,"!  A");
+//        passed = passed & tester.testMixed( "1,0,0,5,0,1,", decoder,"A A");
+//	passed = passed & tester.testMixed( "1,0,0,5,0,1,0,0,3,1,3,0,0,1,", decoder,"A A,!,a");
