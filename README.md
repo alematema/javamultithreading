@@ -2,7 +2,7 @@
 A swing java desktop application that implements fork/join, using low-level concurrency java api.
 It highlights the execution time contrast between this parallel version and a NON-parallel (a sequencial) version.
 
-#For running and resetting the application, take a look at running and setting files 
+#Running and resetting the application
 
 	# Running the app
 		# MAIN ENTRY POINT : execute the file br.edu.undra.app.EncoderDecoderMvcDriver on your IDE
