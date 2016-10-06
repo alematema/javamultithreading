@@ -16,7 +16,7 @@ import java.util.Scanner;
 
 public class MessageEncoder {
 
-    private final int longTaskDurationSimulationTime;
+    private final int longTaskDurationSimulationTime = 150;// simula quanto tempo em milis cada linha/task numa thread durará.
     private int longTaskDuration = 999;
     private OutputStreamWriter out;
     private final Map<Character, Integer> upperCaseEncoderMap;
