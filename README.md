@@ -1,5 +1,5 @@
 # javamultithreading
-A swing java desktop application that implements fork/join, using low-level concurrency java api.
+A java swing desktop application that implements fork/join, using low-level concurrency java api.
 It highlights the execution time contrast between this parallel version and a NON-parallel (sequential) one.
 
 #Running and resetting the application
