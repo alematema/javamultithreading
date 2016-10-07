@@ -25,9 +25,6 @@ public class MessageEncoder {
     
     public MessageEncoder() {
 
-        this.longTaskDurationSimulationTime = 150;// simula quanto tempo em milis cada linha/task numa thread durará.
-
-        
         upperCaseEncoderMap = new HashMap<>();
         lowerCaseEncoderMap = new HashMap<>();
         punctuationEncoderMap = new HashMap<>();
